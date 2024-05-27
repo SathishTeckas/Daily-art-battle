@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 import { MONGODB_URI } from '@/config/constants';
 
 const options = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
   ssl: true, // Enable SSL
 };
 
